@@ -18,4 +18,18 @@ function createNewUser(user: User): User {
 }
 createNewUser({ name: "cashy", email: "cashy@gmail.com", isActive: true });
 
+type cardNumber = {
+  cardNum: string;
+};
+
+type cardDate = {
+  carddate: string;
+};
+
+type cardCvv = {
+  cvv: number;
+};
+
+//defining a type by combining other types
+type cardDetails = cardNumber & cardDate & cardCvv;
 export {};
