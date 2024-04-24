@@ -21,4 +21,4 @@ const Models: number[][] = [
   [198, 162, 1, 1],
 ];
 
-export {};
+export { };
